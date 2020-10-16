@@ -40,3 +40,6 @@ function onPlayerStateChange(event) {
 function stopVideo() {
     player.stopVideo();
 }
+
+document.getElementById('player').style['margin-left'] = Math.round(Math.random() * 50) + "%"
+document.getElementById('player').style['margin-top'] = Math.round(Math.random() * 50) + "%"
